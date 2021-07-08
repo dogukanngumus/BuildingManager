@@ -79,12 +79,12 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 * **Kullanıcı Adı** : admin@admin.com
 * **Parola**: admin123admin
 
-![](https://im.ge/i/1.OQE3T)
-![](https://im.ge/i/2.OQCL0)
-![](https://im.ge/i/3.OQtRr)
-![](https://im.ge/i/4.OQAQW)
-![](https://im.ge/i/5.OQP9m)
-![](https://im.ge/i/6.OQxnc)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/1.png?token=APZFDXEGGM4DY437SP2DJT3A4Z2MA)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/2.png?token=APZFDXBYRIH2RU734WJNN7LA4Z2MI)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/3.png?token=APZFDXCWMOQP5BHX4F273Y3A4Z2MS)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/4.png?token=APZFDXDXVYDHYGZUWQLAQZDA4Z2M4)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/5.png?token=APZFDXHGB4YKGLNT7VHEFETA4Z2NE)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/6.png?token=APZFDXEPR2ZNHLBWTLGNLPLA4Z2L2)
 <h1 > İletişim</h1>
 
 <p align="center">
