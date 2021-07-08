@@ -68,7 +68,10 @@
   </tbody>
 </table>
 
-<h1 id="prerequisites" > Ön Gereklilikler Ve Kurulum</h1>
+<h1>N-Tier Architecture</h1>
+![](https://raw.githubusercontent.com/nuyonu/N-Tier-Architecture/master/github/images/N-Tier-Dependencies.png)
+
+<h1> Ön Gereklilikler Ve Kurulum</h1>
 
 <p align="center">
 <img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
