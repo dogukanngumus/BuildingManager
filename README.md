@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/Building%20Manager.gif?token=APZFDXCG6PWKDCABNPS7C6TA4ZYY4)
+![](https://im.ge/i/building-manager.OQYqL)
 
 <h1>Building Manager</h1>
 
@@ -79,9 +79,12 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 * **Kullanıcı Adı** : admin@admin.com
 * **Parola**: admin123admin
 
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/6.png?token=APZFDXCRI755WQGNQ37SDGDA4ZZJI)
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/5.png?token=APZFDXCRI755WQGNQ37SDGDA4ZZJI)
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/4.png?token=APZFDXCRI755WQGNQ37SDGDA4ZZJI)
+![](https://im.ge/i/1.OQE3T)
+![](https://im.ge/i/2.OQCL0)
+![](https://im.ge/i/3.OQtRr)
+![](https://im.ge/i/4.OQAQW)
+![](https://im.ge/i/5.OQP9m)
+![](https://im.ge/i/6.OQxnc)
 <h1 > İletişim</h1>
 
 <p align="center">
