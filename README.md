@@ -70,14 +70,12 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 * **Kullanıcı Adı** : admin@admin.com
 * **Parola**: admin123admin
 
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/6.png?token=APZFDXA4PG4EQ7KYNXZKCULA4ZV32)
-
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/5.png?token=APZFDXA4UKLQIOJQSQJRZ7TA4ZV4S)
-
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/2.png?token=APZFDXBT26GQC2Y6IC3A6J3A4ZV6O)
-
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/1.png?token=APZFDXHXIY5A335FJI5GPPTA4ZV7K)
-
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/5.png?token=APZFDXBYMSBHW5UQOXQWEC3A4ZYCS)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/6.png?token=APZFDXBYMSBHW5UQOXQWEC3A4ZYCS)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/4.png?token=APZFDXDMQZIFLZTA4JLVMSDA4ZYDE)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/3.png?token=APZFDXGUJBB6GNSYAWHUVILA4ZYDM)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/2.png?token=APZFDXGUJBB6GNSYAWHUVILA4ZYDM)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/1.png?token=APZFDXGUJBB6GNSYAWHUVILA4ZYDM)
 <h1 > İletişim</h1>
 
 <p align="center">
