@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/Building%20Manager.gif?token=APZFDXDN4A4CZXXTFXCJAPTA4ZVZY)
 
-<center><h1>Building Manager</h1></center>
+<h1>Building Manager</h1>
 
 **Patika.dev Apsiyon .NET Core Bootcamp** bitirme projesi olarak **Building Manager** isimli uygulamayı geliştirdim. **Building Manager** uygulamasını hazırlanırken **Apsiyon Apsis** projesinden esinlendim. **Building Manager** içerisinde apartman yöneticilerinin hayatlarını kolaylaştıracak birçok özelliği barındırmakta.
 
@@ -12,7 +12,7 @@
 
 * :euro: **Finans**: Finans alanı aslında projenin en aktif alanıdır. Öncelikle yönetici bir gider tipi belirlemelidir, daha sonra ise bu gider tipine daireye özel ya da toplu olarak gider tipi ekler. Eğer ki kullanıcı kendisine atanan borcu ödemek isterse **Building Manager** uygulamasının ödeme servisinden yararlanarak bu ödeme işlemini gerçekleştirebilir. 
 
- <h1 id="built-with" align="center">Geliştirildiği Teknolojiler</h1>
+ <h1 id="built-with">Geliştirildiği Teknolojiler</h1>
 
 <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif">
 
@@ -59,7 +59,7 @@
   </tbody>
 </table>
 
-<h1 id="prerequisites" align="center"> Ön Gereklilikler Ve Kurulum</h1>
+<h1 id="prerequisites" > Ön Gereklilikler Ve Kurulum</h1>
 
 <p align="center">
 <img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
@@ -78,7 +78,7 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 
 ![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/1.png?token=APZFDXHXIY5A335FJI5GPPTA4ZV7K)
 
-<h1 align="center"> İletişim</h1>
+<h1 > İletişim</h1>
 
 <p align="center">
 </a>
