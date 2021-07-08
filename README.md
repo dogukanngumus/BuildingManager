@@ -1,4 +1,4 @@
-![](/Users/apple/FinalProject/BuildingManager/Images/Building Manager.gif)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/Building%20Manager.gif?token=APZFDXDN4A4CZXXTFXCJAPTA4ZVZY)
 
 <center><h1>Building Manager</h1></center>
 
@@ -70,13 +70,13 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 * **Kullanıcı Adı** : admin@admin.com
 * **Parola**: admin123admin
 
-![](/Users/apple/FinalProject/BuildingManager/Images/6.png)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/6.png?token=APZFDXA4PG4EQ7KYNXZKCULA4ZV32)
 
-![](/Users/apple/FinalProject/BuildingManager/Images/5.png)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/5.png?token=APZFDXA4UKLQIOJQSQJRZ7TA4ZV4S)
 
-![](/Users/apple/FinalProject/BuildingManager/Images/2.png)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/2.png?token=APZFDXBT26GQC2Y6IC3A6J3A4ZV6O)
 
-![](/Users/apple/FinalProject/BuildingManager/Images/1.png)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/1.png?token=APZFDXHXIY5A335FJI5GPPTA4ZV7K)
 
 <h1 align="center"> İletişim</h1>
 
