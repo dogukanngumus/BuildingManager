@@ -80,12 +80,7 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 * **Kullanıcı Adı** : admin@admin.com
 * **Parola**: admin123admin
 
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/1.png)
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/2.png?token=APZFDXBYRIH2RU734WJNN7LA4Z2MI)
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/3.png?token=APZFDXCWMOQP5BHX4F273Y3A4Z2MS)
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/4.png?token=APZFDXDXVYDHYGZUWQLAQZDA4Z2M4)
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/5.png?token=APZFDXHGB4YKGLNT7VHEFETA4Z2NE)
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/6.png?token=APZFDXEPR2ZNHLBWTLGNLPLA4Z2L2)
+<img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/1.png?raw=true"/>
 <h1 > İletişim</h1>
 
 <p align="center">
