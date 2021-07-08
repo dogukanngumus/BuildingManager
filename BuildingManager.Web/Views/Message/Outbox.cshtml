@@ -1,0 +1,26 @@
+@model List<MessageDto>
+<table id="datatable" style="width:100%" class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Mesaj</th>
+            <th scope="col">Alıcı Email</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var message in Model)
+        {
+            <tr>
+                <td>@message.Id</td>
+                <td>@Html.Raw(message.MessageContent)</td>
+                <td>@message.ReceiverEmail</td>
+                <td>
+                    <a asp-controller="Message" asp-action="DeleteMessageFromOutbox" asp-route-id="@message.Id" class="btn btn-danger">
+                        Sil
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

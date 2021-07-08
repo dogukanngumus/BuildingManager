@@ -1,0 +1,17 @@
+@model MessageDto
+
+
+<form asp-controller="Message" asp-action="SendMessage" class="was-validated" >
+    <div class="mb-3">
+        <label asp-for="ReceiverEmail">Kullanıcı Mail</label>
+        <input type="email" asp-for="ReceiverEmail" class="form-control" placeholder="Email adresi..." required/>
+        <span asp-validation-for="ReceiverEmail" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="MessageContent" class="form-label"></label>
+        <textarea asp-for="MessageContent"></textarea>
+        <span asp-validation-for="MessageContent" class="text-danger"></span>
+        <script type="text/javascript">CKEDITOR.replace('MessageContent');</script>
+    </div>
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>

@@ -1,0 +1,14 @@
+@model BuildingDto
+<form asp-controller="Building" asp-action="AddBuilding" class="was-validated">
+    <div class="mb-3">
+        <label asp-for="BuildingName" class="form-label">Blok Adı</label>
+        <input type="text" class="form-control" asp-for="BuildingName" required="" maxlength="1">
+        <span asp-validation-for="BuildingName" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="TotalFlat" class="form-label">Toplam Kat Sayısı</label>
+        <input type="number" class="form-control" asp-for="TotalFlat" required="">
+          <span asp-validation-for="TotalFlat" class="text-danger"></span>
+        </div>
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>

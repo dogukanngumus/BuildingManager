@@ -1,0 +1,61 @@
+@model List<ExpenseDto>
+
+<div class="container mb-5 mt-5">
+    <h3>Yeni Gider Ekle</h3>
+    <a class="btn btn-success btn-sm" asp-controller="Expense" asp-action="AddExpense">
+        Gider Ekle
+    </a>
+    
+     <a class="btn btn-primary btn-sm" asp-controller="Expense" asp-action="AddExpenseMultiple">
+         Toplu Gider Ekle
+     </a>
+</div>
+
+<table id="datatable" style="width:100%" class="table table-hover table-striped">
+    <thead class="thead-info">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Ödendimi</th>
+            <th scope="col">Fiyat</th>
+            <th scope="col">Tarih</th>
+            <th scope="col">Kullanıcı Adı</th>
+            <th scope="col">Daire Numarası</th>
+            <th scope="col">Gider Tipi</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var expense in Model)
+        {
+            <tr>
+                <td>@expense.Id</td>
+                <<td>@if (expense.IsPaid ==true)
+                                 {
+                                     <span class="badge badge-pill badge-success"><i class="fa fa-check-circle"></i></span>
+                                 }
+                                 else
+                                 {
+                                     <span class="badge badge-pill badge-danger"><i class="fa fa-ban"></i></span>
+                                 }</td>
+                <td>@expense.Price</td>
+                <td>@expense.InvoiceDate</td>
+                <td>@expense.UserName</td>
+                <td>@expense.FlatNumber</td>
+                <td>@expense.ExpenseTypeName</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" asp-controller="Expense" asp-action="UpdateExpense" 
+                       asp-route-id="@expense.Id">
+                        Güncelle
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-danger btn-sm" asp-controller="Expense" asp-action="DeleteExpense" 
+                                                                            asp-route-id="@expense.Id">
+                        Sil
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

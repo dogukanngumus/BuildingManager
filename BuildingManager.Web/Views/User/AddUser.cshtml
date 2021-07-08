@@ -1,0 +1,46 @@
+@model RegisterDto
+<form asp-controller="User" asp-action="AddUser" class="was-validated">
+    <div asp-validation-summary="All" class="text-danger">
+    </div>
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label">Adı</label>
+        <input type="text" class="form-control" asp-for="FirstName" required maxlength="200">
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label">Soyadı</label>
+        <input type="text" class="form-control" asp-for="LastName" required maxlength="200">
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="UserName" class="form-label">Kullanıcı Adı</label>
+        <input type="text" class="form-control" asp-for="UserName" required maxlength="200">
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+     <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" asp-for="Email" required >
+            <span asp-validation-for="Email"  class="text-danger"></span>
+        </div>
+    <div class="mb-3">
+        <label asp-for="IdentificationNumber" class="form-label"> TC Kimlik Numarası</label>
+        <input type="text" class="form-control" asp-for="IdentificationNumber" required maxlength="11">
+        <span asp-validation-for="IdentificationNumber"  class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="CarLicensePlate" class="form-label">Araç Plakası</label>
+        <input type="text" class="form-control" asp-for="CarLicensePlate" required maxlength="20">
+        <span asp-validation-for="CarLicensePlate"  class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Parola</label>
+        <input type="password" class="form-control" asp-for="Password" required>
+        <span asp-validation-for="Password"  class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="RePassword" class="form-label">Parola Tekrarı</label>
+        <input type="password" class="form-control" asp-for="RePassword" required>
+        <span asp-validation-for="RePassword" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Kullanıcı Ekle</button>
+</form>

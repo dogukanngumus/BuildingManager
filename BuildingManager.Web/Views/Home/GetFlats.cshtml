@@ -1,0 +1,26 @@
+@model List<FlatDto>
+
+<table id="datatable" style="width:100%" class="table table-hover table-striped">
+    <thead class="thead-info">
+    <tr>
+        <th scope="col">Blok</th>
+        <th scope="col">Daire Numarası</th>
+        <th scope="col">Kullanıcı Adı</th>
+        <th scope="col">Daire Tipi</th>
+        <th scope="col">Boşmu Dolumu</th>
+        
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var flat in Model)
+    {
+        <tr>
+            <td>@flat.BuildingName</td>
+            <td>@flat.FlatNumber</td>
+            <td>@flat.UserName</td>
+            <td>@flat.TypeOfFlat</td>
+            <td>@flat.IsEmpty</td>
+        </tr>
+    }
+    </tbody>
+</table>

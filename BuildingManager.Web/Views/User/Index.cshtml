@@ -1,0 +1,50 @@
+@model List<UserDto>
+
+<div class="container mb-5 mt-5">
+    <h3>Yeni Kullanıcı Ekle</h3>
+    <a class="btn btn-success btn-sm" asp-controller="User" asp-action="AddUser">
+        Kullanıcı Ekle
+    </a>
+</div>
+
+<table id="datatable" style="width:100%" class="table table-hover table-striped">
+    <thead class="thead-info">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Kullanıcı Adı</th>
+        <th scope="col">Kimlik numarası</th>
+        <th scope="col">İsim</th>
+        <th scope="col">Soyisim</th>
+        <th scope="col">Araç Plaka</th>
+        <th scope="col">Email</th>
+        <th></th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.Id</td>
+            <td>@user.UserName</td>
+            <td>@user.IdentificationNumber</td>
+            <td>@user.FirstName</td>
+            <td>@user.LastName</td>
+            <td>@user.CarLicensePlate</td>
+            <td>@user.Email</td>
+            <td>
+                <a class="btn btn-primary btn-sm" asp-controller="User" asp-action="UpdateUser" 
+                   asp-route-id="@user.Id">
+                    Güncelle
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-danger btn-sm" asp-controller="User" asp-action="DeleteUser" 
+                   asp-route-id="@user.Id">
+                    Sil
+                </a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

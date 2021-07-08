@@ -1,0 +1,20 @@
+@model IEnumerable<AnnouncementDto>
+
+
+<table id="datatable" style="width:100%" class="table table-hover table-striped" >
+    <thead class="thead-info">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Announcement</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var announcement in Model)
+    {
+        <tr>
+            <td>@announcement.Id</td>
+            <td>@Html.Raw(announcement.AnnouncementText)</td>
+        </tr>
+    }
+    </tbody>
+</table>

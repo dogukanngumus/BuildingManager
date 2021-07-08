@@ -1,0 +1,41 @@
+@model IEnumerable<AnnouncementDto>
+
+<div class="container mb-5 mt-5">
+    <h3>Yeni Duyuru Ekle</h3>
+    <a class="btn btn-success btn-sm" asp-controller="Announcement" asp-action="AddAnnouncement">
+        Duyuru Ekle
+    </a>
+</div>
+
+<table id="datatable" class="table table-striped table-bordered" style="width:100%" >
+    <thead class="thead-info">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Duyuru</th>
+        <th></th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var announcement in Model)
+    {
+        <tr>
+            <td>@announcement.Id</td>
+            <td>@Html.Raw(announcement.AnnouncementText)</td>
+            <td>
+                <a class="btn btn-primary btn-sm" asp-controller="Announcement" asp-action="UpdateAnnouncement" 
+                   asp-route-id="@announcement.Id">
+                    Güncelle
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-danger btn-sm" asp-controller="Announcement" asp-action="DeleteAnnouncement" 
+                   asp-route-id="@announcement.Id">
+                    Sil
+                </a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+

@@ -1,0 +1,34 @@
+@model FlatUpdateDto
+
+<form asp-controller="Flat" asp-action="UpdateFlat" class="was-validated">
+    <div class="mb-3">
+        <label asp-for="FlatNumber">Daire Numarası</label>
+        <input type="text" class="form-control" asp-for="FlatNumber"/>
+        <span asp-validation-for="FlatNumber" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="TypeOfFlat">Daire Tipi</label>
+        <input type="text" class="form-control" asp-for="TypeOfFlat"/>
+         <span asp-validation-for="TypeOfFlat" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="UserId">Kullanıcı</label>
+        <select asp-for="UserId" class="form-control"
+                asp-items="@(new SelectList(Model.Users, "Id", "UserName"))">
+            <option>Lütfen birini seçiniz</option>
+        </select>
+         <span asp-validation-for="UserId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="BuildingId">Blok</label>
+        <select asp-for="BuildingId" class="form-control"
+                asp-items="@(new SelectList(Model.Building, "Id", "BuildingName"))">
+            <option>Lütfen birini seçiniz</option>
+        </select>
+        <span asp-validation-for="BuildingId" class="text-danger"></span>
+    </div>
+    
+    <input type="hidden" asp-for="Id">
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+</form>

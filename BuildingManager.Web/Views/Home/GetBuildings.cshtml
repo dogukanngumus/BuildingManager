@@ -1,0 +1,21 @@
+@model List<BuildingDto>
+
+
+<table id="datatable" style="width:100%" class="table table-hover table-striped">
+    <thead class="thead-info">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">ExpenseType</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var building in Model)
+    {
+        <tr>
+            <td>@building.Id</td>
+            <td>@building.BuildingName</td>
+            <td>@building.TotalFlat</td>
+        </tr>
+    }
+    </tbody>
+</table>

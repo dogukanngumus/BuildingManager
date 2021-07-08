@@ -1,0 +1,43 @@
+@model List<BuildingDto>
+
+<div class="container mb-5 mt-5">
+    <h3>Yeni Blok Ekle</h3>
+    <a class="btn btn-success btn-sm" asp-controller="Building" asp-action="AddBuilding">
+        Blok Ekle
+    </a>
+</div>
+
+<table id="datatable" class="table table-striped table-bordered" style="width:100%" >
+    <thead class="thead-info">
+    <tr>
+        <th>Id</th>
+        <th>Blok İsmi</th>
+        <th>Kat Sayısı</th>
+        <th></th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var building in Model)
+    {
+        <tr>
+            <td>@building.Id</td>
+            <td>@building.BuildingName</td>
+            <td>@building.TotalFlat</td>
+            <td>
+                <a class="btn btn-primary btn-sm" asp-controller="Building" asp-action="UpdateBuilding" 
+                   asp-route-id="@building.Id">
+                    Güncelle
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-danger btn-sm" asp-controller="Building" asp-action="DeleteBuilding" 
+                   asp-route-id="@building.Id">
+                    Sil
+                </a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+

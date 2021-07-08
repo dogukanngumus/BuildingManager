@@ -1,0 +1,27 @@
+ <div class="top_nav">
+          <div class="nav_menu">
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+              <nav class="nav navbar-nav">
+                <ul class=" navbar-right">
+                  <li class="nav-item">
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                      <a asp-controller="Auth" asp-action="Login">Login</a>
+                    }
+                    else
+                    {
+                      <a asp-controller="Auth" asp-action="Logout">Logout</a>
+                    }
+                     @if (User.IsInRole("Admin"))
+                     {
+                       <li class="nav-item mr-3 ml-3">
+                          <a asp-controller="Announcement" asp-action="Index">Yönetim Paneli</a>
+                       </li>
+                     }
+                  </li>
+                </ul>
+            </nav>
+          </div>
+        </div>

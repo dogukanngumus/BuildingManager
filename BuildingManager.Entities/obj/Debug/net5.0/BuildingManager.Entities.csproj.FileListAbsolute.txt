@@ -1,0 +1,15 @@
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/bin/Debug/net5.0/BuildingManager.Entities.deps.json
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/bin/Debug/net5.0/BuildingManager.Entities.dll
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/bin/Debug/net5.0/ref/BuildingManager.Entities.dll
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/bin/Debug/net5.0/BuildingManager.Entities.pdb
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/obj/Debug/net5.0/BuildingManager.Entities.csproj.AssemblyReference.cache
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/obj/Debug/net5.0/BuildingManager.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/obj/Debug/net5.0/BuildingManager.Entities.AssemblyInfoInputs.cache
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/obj/Debug/net5.0/BuildingManager.Entities.AssemblyInfo.cs
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/obj/Debug/net5.0/BuildingManager.Entities.csproj.CoreCompileInputs.cache
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/obj/Debug/net5.0/BuildingManager.Entities.csproj.CopyComplete
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/obj/Debug/net5.0/BuildingManager.Entities.dll
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/obj/Debug/net5.0/ref/BuildingManager.Entities.dll
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/obj/Debug/net5.0/BuildingManager.Entities.pdb
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/bin/Debug/net5.0/BuildingManager.Core.dll
+/Users/apple/FinalProject/BuildingManager/BuildingManager.Entities/bin/Debug/net5.0/BuildingManager.Core.pdb

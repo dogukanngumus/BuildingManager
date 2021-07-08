@@ -1,0 +1,10 @@
+@model AnnouncementDto
+<form asp-controller="Announcement" asp-action="AddAnnouncement">
+    <div class="mb-3">
+        <label asp-for="AnnouncementText">Duyuru</label>
+        <textarea asp-for="AnnouncementText" ></textarea>
+        <span asp-validation-for="AnnouncementText" class="text-danger"></span>
+        <script type="text/javascript">CKEDITOR.replace('AnnouncementText');</script>
+    </div>
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>

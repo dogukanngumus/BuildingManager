@@ -1,0 +1,33 @@
+@model CreatePaymentDto
+<div class="alert alert-danger mb-3">
+     @Model.InvoiceAmount TL borcunuz bulunmaktadır.
+</div>
+<form asp-controller="Home" asp-action="CreatePayment" class="was-validated" >
+    <div class="mb-3 ">
+        <label asp-for="Owner">Kredi Kartı Sahibi</label>
+        <input type="text" class="form-control" asp-for="Owner" required />
+        <span asp-validation-for="Owner"></span>
+    </div>
+    <div class="mb-3 ">
+        <label asp-for="CardNumber">Kart Numarası</label>
+        <input type="text" class="form-control" asp-for="CardNumber" />
+        <span asp-validation-for="CardNumber"></span>
+    </div>
+    <div class="mb-3 ">
+        <label asp-for="ValidMonth">Ay</label>
+        <input type="text" class="form-control" asp-for="ValidMonth" />
+          <span asp-validation-for="ValidMonth"></span>
+    </div>
+    <div class="mb-3 ">
+        <label asp-for="ValidYear">Yıl</label>
+        <input type="text" class="form-control" asp-for="ValidYear" />
+          <span asp-validation-for="ValidYear"></span>
+    </div>
+    <div class="mb-3 ">
+        <label asp-for="Cvv">Yıl</label>
+        <input type="text" class="form-control" asp-for="Cvv" />
+          <span asp-validation-for="Cvv"></span>
+    </div>
+    <input type="hidden" asp-for="ExpenseId" />
+    <button type="submit" class="btn btn-primary">Öde</button>
+</form>

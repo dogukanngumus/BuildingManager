@@ -1,0 +1,52 @@
+   <div class="navbar nav_title" style="border: 0;">
+                <a href="#" class="site_title"><span>Building Manager</span></a>
+              </div>
+  
+              <div class="clearfix"></div>
+  
+              <!-- menu profile quick info -->
+   <div class="profile clearfix">
+     <div class="profile_pic">
+       <img src="~/images/img.jpg" alt="..." class="img-circle profile_img">
+     </div>
+     <div class="profile_info">
+       @if (User.Identity.IsAuthenticated)
+       {
+         <span>Hoşgeldiniz</span>
+         <h2>@User.Identity.Name</h2>
+       }
+     </div>
+   </div>
+              <!-- /menu profile quick info -->
+   <br />
+  
+  <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+      <div class="menu_section">
+        <ul class="nav side-menu">
+              <li><a asp-controller="Announcement" asp-action="Index"><i class="fa fa-bullhorn"></i>Duyurular</a></li>
+              <li><a><i class="fa fa-building"></i> Site <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a asp-controller="Building" asp-action="Index"><i class="fa fa-building"></i>Bloklar</a></li>
+                      <li><a asp-controller="Flat" asp-action="Index"><i class="fa fa-home"></i>Daireler</a></li>
+                    </ul>
+              </li>
+           <li><a><i class="fa fa-envelope"></i> Mesajlar <span class="fa fa-chevron-down"></span></a>
+           <ul class="nav child_menu">
+             <li><a asp-controller="Message" asp-action="Inbox"><i class="fa fa-inbox"></i>Gelen Kutusu</a></li>
+             <li><a asp-controller="Message" asp-action="Outbox"><i class="fa fa-arrow-right"></i>Giden Kutusu</a></li>
+             <li><a asp-controller="Message" asp-action="SendMessage"><i class="fa fa-comments"></i>Mesaj Gönder</a></li>
+           </ul>
+           <li><a asp-controller="User" asp-action="Index"><i class="fa fa-user"></i>Kullanıcılar</a></li>
+                  
+                  <li><a><i class="fa fa-cc-visa"></i> Finans <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                       <li><a asp-controller="ExpenseType" asp-action="Index"><i class="fa fa-shopping-cart"></i>Gider Tipleri</a></li>
+                       <li><a asp-controller="Expense" asp-action="Index"><i class="fa fa-money"></i>Giderler</a></li>
+                       <li><a asp-controller="Expense" asp-action="GetDebtOfExpense"><i class="fa fa-ban"></i>Borç Listesi</a></li>
+                       <li><a asp-controller="Expense" asp-action="GetPaidExpense"><i class="fa fa-check-circle"></i>Ödenenler Listesi</a></li>
+                    </ul>
+                   </li>
+                  </ul> 
+        </div>
+
+  </div>

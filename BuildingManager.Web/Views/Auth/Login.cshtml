@@ -1,0 +1,47 @@
+@model LoginDto
+@{
+  Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin | Login </title>
+    @await Html.PartialAsync("_Styles")
+  </head>
+
+  <body class="login">
+    <div>
+      <div class="login_wrapper">
+        <div class="animate form login_form">
+          <section class="login_content">
+            <form asp-controller="Auth" asp-action="Login" method="Post" class="was-validated">
+              <h1>Giriş Yap</h1>
+              <input type="hidden" asp-for="ReturnUrl"/>
+              <div class="form-group">
+                <input class="form-control" placeholder="Email..." asp-for="Email" required/>
+                <span asp-validation-for="Email" class="text-danger"></span>
+              </div >
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="Parola..." asp-for="Password" required/>
+                <span asp-validation-for="Password" class="text-danger"> </span>
+              </div>
+              <div>
+                <button class="btn btn-outline-primary" type="submit">Giriş Yap</button>
+              </div>
+              <div>
+                <a class="hiddenanchor" id="signup"></a>
+                <a class="hiddenanchor" id="signin"></a>
+              </div>
+              <div class="clearfix"></div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

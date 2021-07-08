@@ -1,0 +1,21 @@
+@model List<MessageDto>
+
+<table id="datatable" style="width:100%" class="table table-hover table-striped">
+    <thead>
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Message</th>
+        <th scope="col">Sender UserName</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var message in Model)
+    {
+        <tr>
+            <td>@message.Id</td>
+            <td>@Html.Raw(message.MessageContent)</td>
+            <td>@message.SenderEmail</td>
+        </tr>
+    }
+    </tbody>
+</table>

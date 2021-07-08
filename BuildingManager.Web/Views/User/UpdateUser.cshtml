@@ -1,0 +1,35 @@
+@model UserDto
+<form asp-controller="User" asp-action="UpdateUser" class="was-validated">
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label">Adı</label>
+        <input type="text" class="form-control" asp-for="FirstName" required maxlength="200">
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label">Soyadı</label>
+        <input type="text" class="form-control" asp-for="LastName" required maxlength="200">
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="UserName" class="form-label">Kullanıcı Adı</label>
+        <input type="text" class="form-control" asp-for="UserName" required maxlength="200">
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email</label>
+        <input type="email" class="form-control" asp-for="Email" required="">
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="IdentificationNumber" class="form-label"> TC Kimlik Numarası</label>
+        <input type="text" class="form-control" asp-for="IdentificationNumber" required maxlength="11">
+        <span asp-validation-for="IdentificationNumber" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="CarLicensePlate" class="form-label">Araç Plakası</label>
+        <input type="text" class="form-control" asp-for="CarLicensePlate" required maxlength="20">
+        <span asp-validation-for="CarLicensePlate" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="Id"/>
+    <button type="submit" class="btn btn-primary">Kullanıcı Güncelle</button>
+</form>
