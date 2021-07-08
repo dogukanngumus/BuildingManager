@@ -68,8 +68,6 @@
   </tbody>
 </table>
 
-<h1>N-Tier Architecture</h1>
-![](https://raw.githubusercontent.com/nuyonu/N-Tier-Architecture/master/github/images/N-Tier-Dependencies.png)
 
 <h1> Ön Gereklilikler Ve Kurulum</h1>
 
