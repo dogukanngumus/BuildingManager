@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/Building%20Manager.gif)
+<img src="https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/Building%20Manager.gif"/>
 
 <h1>Building Manager</h1>
 
