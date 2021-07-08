@@ -1,4 +1,4 @@
-<img src="hhttps://github.com/dogukanngumus/BuildingManager/blob/main/Images/Building%20Manager.gif?raw=true"/>
+<img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/Building%20Manager.gif?raw=true"/>
 
 <h1>Building Manager</h1>
 
