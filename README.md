@@ -70,7 +70,6 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 * **Kullanıcı Adı** : admin@admin.com
 * **Parola**: admin123admin
 
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/6.png?token=APZFDXGMFOVBXXMMWW2KRLLA4ZYOQ)
 ![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/5.png?token=APZFDXBYMSBHW5UQOXQWEC3A4ZYCS)
 ![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/4.png?token=APZFDXDMQZIFLZTA4JLVMSDA4ZYDE)
 ![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/3.png?token=APZFDXGUJBB6GNSYAWHUVILA4ZYDM)
