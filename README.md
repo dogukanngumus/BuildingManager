@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/Building%20Manager.gif?token=APZFDXGS5OK6LCRWZF4VZZTA4Z2C4)
+![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/Building%20Manager.gif)
 
 <h1>Building Manager</h1>
 
