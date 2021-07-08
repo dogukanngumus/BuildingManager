@@ -56,6 +56,15 @@
                         src="https://img.shields.io/badge/-Sql%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=ffffff" /></a>
             </td>
     </tr>
+   <tr>
+     </td>
+        <td><a href="#"><img alt="AutoMapper" title="AutoMapper" height="30px"
+                        src="https://img.shields.io/badge/-AutoMapper-5C2D91?style=flat&logo=.net&logoColor=white" /></a>
+            </td>
+       <td><a href="#"><img alt="FluentValidation" title="FluentValidation" height="30px"
+                        src="https://img.shields.io/badge/-FluentValidatiob-CC2927?style=flat-square&logo=.net&logoColor=ffffff" /></a>
+            </td>
+    </tr>
   </tbody>
 </table>
 
