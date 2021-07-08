@@ -74,7 +74,7 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 ![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/5.png?token=APZFDXBYMSBHW5UQOXQWEC3A4ZYCS)
 ![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/4.png?token=APZFDXDMQZIFLZTA4JLVMSDA4ZYDE)
 ![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/3.png?token=APZFDXGUJBB6GNSYAWHUVILA4ZYDM)
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/2.png?token=APZFDXGMFOVBXXMMWW2KRLLA4ZYOQ)
+
 <h1 > İletişim</h1>
 
 <p align="center">
