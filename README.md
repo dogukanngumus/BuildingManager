@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/Building%20Manager.gif?token=APZFDXGNBRDUPKAZXHJTW2LA4Z3J2"/>
+<img src="hhttps://github.com/dogukanngumus/BuildingManager/blob/main/Images/Building%20Manager.gif?raw=true"/>
 
 <h1>Building Manager</h1>
 
@@ -81,6 +81,11 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 * **Parola**: admin123admin
 
 <img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/1.png?raw=true"/>
+<img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/2.png?raw=true"/>
+<img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/3.png?raw=true"/>
+<img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/4.png?raw=true"/>
+<img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/5.png?raw=true"/>
+<img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/6.png?raw=true"/>
 <h1 > İletişim</h1>
 
 <p align="center">
