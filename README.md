@@ -80,8 +80,6 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 * **Parola**: admin123admin
 
 ![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/5.png?token=APZFDXBYMSBHW5UQOXQWEC3A4ZYCS)
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/4.png?token=APZFDXDMQZIFLZTA4JLVMSDA4ZYDE)
-![](https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/3.png?token=APZFDXGUJBB6GNSYAWHUVILA4ZYDM)
 
 <h1 > İletişim</h1>
 
