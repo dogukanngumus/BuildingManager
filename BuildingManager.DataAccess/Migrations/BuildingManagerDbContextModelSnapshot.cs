@@ -274,7 +274,7 @@ namespace BuildingManager.DataAccess.Migrations
                         {
                             Id = "02174cf0–9412–4cfe-afbf-59f706d72cf6",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1eac942b-d32d-426b-891c-3c3797d485ae",
+                            ConcurrencyStamp = "cc5b26fb-b9da-48db-bae9-9ccc629ceea0",
                             Email = "admin@admin.com",
                             EmailConfirmed = true,
                             FirstName = "Admin",
@@ -283,9 +283,9 @@ namespace BuildingManager.DataAccess.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@admin.com",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPcJqFXY/Ts1pGEAK31uUTu7dsfHbVcvrH4irbKNJBmFJG/kGJQBv3CjKZAPu7eR8g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFte3JmHLaOvzONwR70FpsqaRpeOidiw53oIHD/vJGKKrir22YGZY/M/Ge83VIfP7g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "5ae21bac-c5d3-49b1-919b-5479f45aba8e",
+                            SecurityStamp = "5de8fa17-251d-4402-9720-e519907aac9a",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });

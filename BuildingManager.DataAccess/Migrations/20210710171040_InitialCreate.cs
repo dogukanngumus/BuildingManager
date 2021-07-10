@@ -282,7 +282,7 @@ namespace BuildingManager.DataAccess.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "CarLicensePlate", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "IdentificationNumber", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "02174cf0–9412–4cfe-afbf-59f706d72cf6", 0, null, "1eac942b-d32d-426b-891c-3c3797d485ae", "admin@admin.com", true, "Admin", "11111111111", "Admin", false, null, "admin@admin.com", "ADMIN", "AQAAAAEAACcQAAAAEPcJqFXY/Ts1pGEAK31uUTu7dsfHbVcvrH4irbKNJBmFJG/kGJQBv3CjKZAPu7eR8g==", null, false, "5ae21bac-c5d3-49b1-919b-5479f45aba8e", false, "admin" });
+                values: new object[] { "02174cf0–9412–4cfe-afbf-59f706d72cf6", 0, null, "cc5b26fb-b9da-48db-bae9-9ccc629ceea0", "admin@admin.com", true, "Admin", "11111111111", "Admin", false, null, "admin@admin.com", "ADMIN", "AQAAAAEAACcQAAAAEFte3JmHLaOvzONwR70FpsqaRpeOidiw53oIHD/vJGKKrir22YGZY/M/Ge83VIfP7g==", null, false, "5de8fa17-251d-4402-9720-e519907aac9a", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
