@@ -80,6 +80,7 @@ Aslında projeyi çalıştırmak oldukça basit.Uygulamayı başarılı bir şek
 * **Kullanıcı Adı** : admin@admin.com
 * **Parola**: admin123admin
 
+<img src="https://raw.githubusercontent.com/dogukanngumus/BuildingManager/main/Images/database.PNG"/>
 <img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/1.png?raw=true"/>
 <img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/2.png?raw=true"/>
 <img src="https://github.com/dogukanngumus/BuildingManager/blob/main/Images/3.png?raw=true"/>
