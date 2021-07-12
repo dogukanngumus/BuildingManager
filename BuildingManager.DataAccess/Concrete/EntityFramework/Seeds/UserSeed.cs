@@ -15,7 +15,7 @@ namespace BuildingManager.DataAccess.Concrete.EntityFramework.Seeds
                 Email = "admin@admin.com",
                 EmailConfirmed = true, 
                 IdentificationNumber = "11111111111",
-                NormalizedEmail = "admin@admin.com",
+                NormalizedEmail = "ADMIN@ADMIN.com",
                 FirstName = "Admin",
                 LastName = "Admin",
                 UserName = "admin",
